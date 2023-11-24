@@ -1,5 +1,3 @@
-const numberA = 100;
-const numberB = "20";
 let numberA = 100;
 let numberB = "20";
 numberA = 10;
