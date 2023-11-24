@@ -1,8 +1,9 @@
-let isOver18;
-let hasCriminalBlacklist;
+let isOver18 = true;
+let hasCriminalBlacklist = false;
 
-let isAllow;
+function checkParticipantEligibility(isOver18, hasCriminalBlacklist) {
+  let isAllow = isOver18 && !hasCriminalBlacklist;
+  console.log(isAllow);
+}
 
-// Start coding here
-
-console.log(isAllow);
+checkParticipantEligibility(isOver18, hasCriminalBlacklist);
